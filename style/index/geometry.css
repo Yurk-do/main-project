@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0em;
+    padding: 0em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+}
+
+h2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* Navbar*/
+
+#navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#navbar-logo {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    justify-self: left;
+    align-self: center;
+}
+
+#navbar-logo img {
+    display: block;
+    ;
+}
+
+#navbar-order {
+    grid-column: 7 / 13;
+    grid-row: 1 / 2;
+    justify-self: start;
+    align-self: center;
+}
+
+#navbar-menu {
+    grid-column: 7 / 13;
+    grid-row-start: 2 / 3;
+    justify-self: start;
+    align-self: center;
+}
+
+#navbar-order a {
+    position: relative;
+    display: inline-block;
+    padding: 1em;
+    border: solid 0.1em;
+    margin-right: 1em;
+    border-radius: 0.3em;
+}
+#navbar-menu ul li {
+    display: inline-block;
+    margin-right: 1em;
+    padding: 0em;
+}
+#navbar-menu ul {
+    margin: 0em;
+    padding: 0em;
+}
+
+/* Main Grid */
+
+#grid-conteiner {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(10em, auto);
+    align-items: center;
+}
+
+#topboard,
+#gallery,
+#findus,
+#footer {
+    grid-column: 1 / 13;
+}
+
+#short-information {
+    grid-column: 2 / 12;
+}
+
+#link-daily-information {
+    grid-column: 5 / 9;
+}
+
+#news {
+    grid-column: 2 / 12;
+}
+
+/* Elements of Main Grid*/
+
+#topboard {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#container-short-inf {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.flex-box-short-inf {
+    margin: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.box-short-inf {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    box-shadow: 1px -2px 8px 7px rgba(255, 255, 255, 0.4);
+    overflow: hidden;
+}
+
+.title-box-short-inf {
+    width: 100%;
+}
+#choice-short-inf {
+    width: 20em;
+    height: 15em;
+    border-radius: 5%;
+    box-shadow: 1px -2px 17px 19px rgba(0, 0, 0, 0.75) inset;
+}
+.title-box-choice-short-inf {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+.link-box-short-inf {
+    margin-top: auto;
+    margin-bottom: 10%;
+    margin-left: auto;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+#conteiner-gallery {
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr repeat(2, 2fr) 4fr;
+    grid-auto-rows: minmax(15em, auto);
+    border: var(--border-grid);
+}
+.box-gallery-big {
+    grid-row: 1 / 3;
+    overflow: hidden;
+}
+.box-gallery-small-top {
+    grid-row: 1 / 2;
+    overflow: hidden;
+}
+.box-gallery-small-down {
+    grid-row: 2 / 3;
+    overflow: hidden;
+}
+.small-img-box-gallery {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.big-img-box-gallery {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.rhomb-gallery {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 15em;
+    max-height: 15em;
+}
+.link-gallery {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.title-link-gallery {
+    padding: 0em;
+    margin: 0em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#link-daily-information {
+    padding-top: 5em;
+    text-align: center;
+}
+
+#conteiner-news {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.block-news {
+    max-width: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.img-news {
+    width: 100%;
+    height: 12em;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+.date-news {
+    border-top: solid 1px white;
+}
+#map img {
+    width: 100%;
+    object-fit: cover;
+
+}
+#conteiner-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(30em, auto);
+}
+
+.bottom-contacts-block li {
+    display: block;
+    padding: 1em;
+}
+.bottom-contacts-block table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom-contacts-block td {
+    padding: 1em;
+}
+#footer-bottom-panel {
+    padding: 0em;
+    margin: 0em;
+    height: 3em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

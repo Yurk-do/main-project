@@ -1,0 +1,84 @@
+/* Colors */
+body {
+    background-image: url(/main-project/img/home-bg.png);
+    color: white;
+}
+a {
+    color: inherit;
+}
+#navbar {
+    background-color: rgba(32, 44, 56, 0.5);
+}
+#navbar-order a {
+    border-color: #e2cc62;
+}
+#navbar-order a:hover {
+    background-color: #e2cc62;
+    color: #121212;
+    transition: all 500ms ease; 
+}
+#navbar ul li a:hover {
+    color: var(--color-link);
+    border-color: #e2cc62;
+}
+
+#topboard {
+    background-image: url(/main-project/img/bar3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#beer-short-inf {
+    background-image: url(/main-project/img/beer8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#choice-short-inf {
+    background-image: url(/main-project/img/strelka2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#whiskey-short-inf {
+    background-image: url(/main-project/img/whiskar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#coctails-short-inf {
+    background-image: url(/main-project/img/coctails.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title-box-short-inf,
+.link-box-short-inf {
+    background-color: rgba(32, 44, 56, 0.5);
+    color: var(--color-link);
+}
+.title-box-choice-short-inf {
+    color: black;
+}
+
+.title-news {
+    color: #6198e0;
+}
+.link-news {
+    color: var(--color-link);
+}
+#footer {
+    background-color: #383838;
+}
+#conteiner-footer {
+    background-color: #020101;
+    background-image: url(/main-project/img/bck-bottom-navbar.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+}
+.icon-color {
+    color: var(--color-link);
+}

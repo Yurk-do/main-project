@@ -1,0 +1,45 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Solway medium';
+    src: url(../fonts/Solway-Medium.ttf);
+}
+@font-face {
+    font-family: 'Solway bold';
+    src: url(../fonts/Solway-Bold.ttf);
+}
+@font-face {
+    font-family: 'Solway light';
+    src: url(../fonts/Solway-Light.ttf);
+}
+body {
+    font-family: 'Solway medium';
+    font-size: 15px;
+    font-weight: 500;
+}
+h1, h2 {
+    text-transform: capitalize;
+}
+h1 {
+    font-family: 'Solway bold';
+    font-size: 5em;
+    opacity: 0.8;
+    color: #e2cc62;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 1.5em;
+}
+#navbar {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.title-conteiner-menu-section {
+    padding: 0.5em;
+}
+.title-item-menu {
+    font-size: 1.5em;
+}

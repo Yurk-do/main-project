@@ -1,0 +1,69 @@
+
+body {
+    background-image: url(/main-project/img/home-bg.png);
+    color: white;
+    background-repeat: repeat;
+}
+a {
+    color: inherit;
+}
+
+#navbar {
+    background-color: rgba(32, 44, 56, 0.5);
+}
+#navbar-order a {
+    border-color: #e2cc62;
+}
+#navbar-order a:hover {
+    background-color: #e2cc62;
+    color: #121212;
+    transition: 0.5s;
+}
+#navbar-order a:first-child {
+    background-color: #e2cc62;
+    color: #121212;
+}
+#navbar ul li a:hover {
+    color: var(--color-link);
+}
+#navbar ul li a:hover {
+    color: #e2cc62;
+}
+
+
+/* Form */
+
+input,
+select {
+    background-color: rgba(55, 57, 66, 0.867);
+    color: white;
+}
+button {
+    background-color: black;
+    color: white;
+}
+button:hover {
+    background-color: #e2cc62;
+    color: black;
+    transition: 0.5s;
+}
+#form-container {
+    background-image: url(/main-project/img/bckg.png);
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: #383838;
+}
+#conteiner-footer {
+    background-color: #020101;
+    background-image: url(/main-project/img/bck-bottom-navbar.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+}
+.icon-color {
+    color: var(--color-link);
+}

@@ -1,0 +1,116 @@
+/* Colors */
+body {
+    background-image: url(/main-project/img/home-bg.png);
+    color: white;
+    background-repeat: repeat;
+}
+a {
+    color: inherit;
+}
+
+#navbar {
+    background-color: rgba(32, 44, 56, 0.5);
+}
+#navbar-order a {
+    border-color: #e2cc62;
+}
+#navbar-order a:hover {
+    background-color: #e2cc62;
+    color: #121212;
+    transition: 0.5s;
+}
+#navbar ul li a:hover {
+    color: var(--color-link);
+}
+#navbar ul li:first-child {
+    color: var(--color-link);
+}
+#topboard {
+    background-image: url(../img/bar3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-conteiner-menu {
+    background-color: #444444;
+}
+#conteiner-title-menu-links {
+    border-color: white;
+}
+.main-title-menu-section h2 {
+    color: #c7b24d;
+ }
+.title-menu-links:hover {
+    background-color: #e2cc62;
+    color: black;
+    transition: all 500ms ease; 
+}
+.title-menu-links:first-child:hover {
+    background-color: inherit;
+}
+#title-menu-link-beer {
+    border-color: #e2cc62;
+    color: black;
+}
+#second-conteiner-menu {
+    background-color: #000000;
+    border-color: white;
+}
+.title-conteiner-menu-section {
+    color: #c7b24d;
+}
+.title-item-menu {
+    color: #6198e0;
+}
+.link-more-info {
+    color: var(--color-link);
+}
+.link-more-info:hover {
+    color: black;
+    background-color: #c7b24d;
+}
+
+
+
+.bg-beer-short-inf {
+    background-image: url(../img/beer8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-choice-short-inf {
+    background-image: url(../img/strelka2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-whiskey-short-inf {
+    background-image: url(../img/whiskey8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-coctails-short-inf {
+    background-image: url(../img/coctails.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.link-box-short-inf {
+    background-color: rgba(32, 44, 56, 0.5);
+}
+#footer {
+    background-color: #383838;
+}
+#conteiner-footer {
+    background-color: #020101;
+    background-image: url(/main-project/img/bck-bottom-navbar.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+}
+.icon-color {
+    color: var(--color-link);
+}
