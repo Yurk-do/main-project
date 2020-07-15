@@ -311,10 +311,4 @@ h2 {
     }
 }    
 
-@media (max-width: 600px) {
 
-    #navbar-order a {
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-    }
-}
