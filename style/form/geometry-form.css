@@ -80,6 +80,17 @@ h4 {
 }
 
 /* Form */
+#form-container {
+    padding: 3em 0em 3em 0em;
+    margin: 3em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 
 input,
 select,
@@ -103,18 +114,6 @@ button {
     display: inline-block;
     width: 5em;
     padding-right: 2em;
-}
-
-#form-container {
-    padding: 3em 0em 3em 0em;
-    margin: 3em;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
 }
 
 #personal-data,
@@ -170,3 +169,10 @@ button {
     justify-content: space-evenly;
     align-items: center;
 }
+
+@media (max-width: 668px) {
+    #personal-data {
+        min-width: 20em;
+    }
+}
+
